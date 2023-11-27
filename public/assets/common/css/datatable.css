@@ -1,0 +1,23 @@
+table.dataTable {
+    color: #333;
+    border-collapse: separate !important;
+    border: 1px solid #ddd !important;
+}
+
+div.dataTables_wrapper div.dataTables_processing {
+    background-color: #233242;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .35rem;
+}
+
+.page-item.active .page-link {
+    background-color: #414651;
+    border-color: #e3e6f0;
+}
